@@ -1,7 +1,7 @@
 {
   "_ref": "https://bobtranslate.com/plugin/quickstart/info.html",
   "identifier": "cn.wieke.bob-simpletex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "category": "ocr",
   "name": "SimpleTex 公式识别",
   "summary": "使用 SimpleTex API 进行公式识别，API 需要自行申请",
@@ -43,7 +43,7 @@
           "value": "formula"
         }
       ],
-      "desc": "用以指定识别图片的类型，如果使用自动检测则会自动检测，使用文档会返回 markdown 文档结果，使用公式会返回 LaTeX 结果"
+      "desc": "用以指定识别图片的类型，如果使用自动检测则会自动检测，使用文档类型会返回 markdown 文档结果，使用公式类型会返回 LaTeX 结果"
     }
   ]
 }

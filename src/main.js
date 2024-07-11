@@ -52,17 +52,31 @@ function ocr(query, completion) {
 
   res.then((resp) => {
     const data = resp.data;
-    completion({
-      result: {
-        from: data.res.type, // 假设识别结果为英文
-        texts: [
-          {
-            text: data.res.info
-          }
-        ],
-        raw: data // 将原始数据作为 raw 属性返回
-      }
-    });
+    if (data.res.type === "doc") {
+      completion({
+        result: {
+          from: "en", // 假设识别结果为英文
+          texts: [
+            {
+              text: data.res.info.markdown
+            }
+          ],
+          raw: data // 将原始数据作为 raw 属性返回
+        }
+      });
+    } else {
+      completion({
+        result: {
+          from: "en", // 假设识别结果为英文
+          texts: [
+            {
+              text: data.res.info
+            }
+          ],
+          raw: data // 将原始数据作为 raw 属性返回
+        }
+      });
+    }
   })
   .catch((error) => {
     completion({
