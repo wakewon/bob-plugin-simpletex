@@ -1,0 +1,49 @@
+{
+  "_ref": "https://bobtranslate.com/plugin/quickstart/info.html",
+  "identifier": "cn.wieke.bob-simpletex",
+  "version": "0.0.1",
+  "category": "ocr",
+  "name": "SimpleTex 公式识别",
+  "summary": "使用 SimpleTex API 进行公式识别，API 需要自行申请",
+  "author": "wakewon",
+  "homepage": "https://github.com/wakewon/bob-plugin-simpletex",
+  "appcast": "https://github.com/wakewon/bob-plugin-simpletex/raw/main/appcast.json",
+  "minBobVersiojn": "0.5.0",
+  "options": [
+    {
+      "identifier": "APP_ID",
+      "type": "text",
+      "defaultValue": "",
+      "title": "App ID",
+      "desc": "SimpleTex 的 App ID，需要从 SimpleTex 官网申请"
+    },
+    {
+      "identifier": "APP_Secret",
+      "type": "text",
+      "defaultValue": "",
+      "title": "App Secret",
+      "desc": "SimpleTex 的 App Secret，需要从 SimpleTex 官网申请"
+    },
+    {
+      "identifier": "rec_mode",
+      "title": "识别图片的类型",
+      "type": "menu",
+      "defaultValue": "basic",
+      "menuValues": [
+        {
+          "title": "自动检测",
+          "value": "auto"
+        },
+        {
+          "title": "文档",
+          "value": "document"
+        },
+        {
+          "title": "公式",
+          "value": "formula"
+        }
+      ],
+      "desc": "用以指定识别图片的类型，如果使用自动检测则会自动检测，使用文档会返回 markdown 文档结果，使用公式会返回 LaTeX 结果"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.DS_Store
+/demo*.png
+/demo*.jpg
+/debug.bobplugin/
+/*.bobplugin
+/*.bobplugin.zip

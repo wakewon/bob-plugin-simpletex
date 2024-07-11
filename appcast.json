@@ -1,0 +1,12 @@
+{
+  "identifier": "cn.wieke.bob-simpletex",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "desc": "初始版本",
+      "sha256": "38aca7059553d06e111d6e68646258336044760ce4622d7917f5ebd9d94d463d",
+      "url": "https://github.com/wakewon/bob-plugin-simpletex/releases/download/v0.0.1/bob-plugin-simpletex-v0.0.1.bobplugin.zip",
+      "timestamp": 1720678975
+    }
+  ]
+}
