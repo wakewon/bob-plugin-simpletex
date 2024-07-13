@@ -8,10 +8,6 @@ SimpleTex 提供了免费且好用的公式/文档识别 API。本插件使用�
 
 请在 [Release 页面](https://github.com/wakewon/bob-plugin-simpletex/releases/latest) 下载最新版本的插件安装包，并参照 [插件安装教程](https://bobtranslate.com/guide/advance/plugin.html) 安装。
 
-如果你的电脑上无法看到文件的 `.zip` 后缀名，请参照下面这篇文档显示后缀名：
-
-[【Apple 官网】在 Mac 上显示或隐藏文件扩展名](https://support.apple.com/zh-cn/guide/mac-help/mchlp2304)
-
 ### 申请密钥
 
 本插件需要申请 SimpleTex 的 API，申请教程可参考：
