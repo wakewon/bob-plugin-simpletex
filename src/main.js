@@ -1,8 +1,7 @@
 // 参考了这个：https://github.com/selaselah/bob-plugin-mathpix/blob/master/src/main.js
-const { Buffer } = require('buffer'); // Import Buffer from the 'buffer' module
 
 function supportLanguages() {
-  return ['auto', 'en'];
+  return ['auto', 'en', 'zh-Hans'];
 }
 
 function ocr(query, completion) {
